@@ -22,7 +22,6 @@
 }
 
 
-
 /* NAVBAR + HEADER */
 
 header {
@@ -155,8 +154,12 @@ section {
         justify-content: center;
         position: relative;
         height: 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 20px;
+    }
+
+
+    .texte-profil p {
+        padding: 0px 10px;
     }
 
     .image-profil {
@@ -171,7 +174,6 @@ section {
         display: flex;
         flex-direction: column;
         height: 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 40px 20px;
     }
 }
