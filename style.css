@@ -39,6 +39,7 @@ main {
     gap: 50px;
     padding-top: 40px;
     background-color: rgb(247, 242, 238);
+    padding-bottom: 40px;
 }
 
 img {
@@ -46,10 +47,12 @@ img {
 }
 
 .texte-profil {
+    height: 100%;
     padding-top: 20px;
-    width: 250px;
+    width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
